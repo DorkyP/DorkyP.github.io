@@ -54,7 +54,13 @@
 							<a href="#">show email</a>
 						</span>
 					</div>
-					<p class="lead mb-5">I am an experienced developer and business analyst with an eye for details, and a willingess to help.</p>
+					<!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <p>I'm <span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer"></span></p>
+    </div>
+  </section><!-- End Hero -->
+					<p class="lead mb-5">This is my home page. You can find a PDF of my resume here, and links to my (relatively empty) socials below.</p>
 					<div class="social-icons">
 						<a class="social-icon" href="#!"><i class="fab fa-linkedin-in"></i></a>
 						<a class="social-icon" href="#!"><i class="fab fa-github"></i></a>
@@ -224,6 +230,7 @@
 				</div>
 			</section>
 		</div>
+		<script src="assets/js/typed.js"></script>
 		<!-- Bootstrap core JS-->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 		<!-- Core theme JS-->
@@ -233,5 +240,16 @@
 		crossorigin="anonymous"></script>
 
 		<script src="assets/js/hide-details.js"></script>
+
+		<script>
+			import Typed from 'typed.js';
+
+			var options = {
+				strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
+				typeSpeed: 40
+			};
+
+			var typed = new Typed('.element', options);
+		</script>
 	</body>
 </html>
