@@ -31,17 +31,8 @@ window.addEventListener('DOMContentLoaded', event => {
 		});
 	});
 
-});
-
-
-(function() {
-  "use strict";
-  /**
-   * Hero type effect
-   */
-	 const typed = select('.typed')
+	const typed = document.body.querySelector('.typed')
 	 if (typed) {
-		 console.log("made it in");
 		 let typed_strings = typed.getAttribute('data-typed-items')
 		 typed_strings = typed_strings.split(',')
 		 new Typed('.typed', {
@@ -52,4 +43,4 @@ window.addEventListener('DOMContentLoaded', event => {
 			 backDelay: 2000
 		 });
 	 }
-	});
+});
