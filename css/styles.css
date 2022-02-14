@@ -51,6 +51,9 @@ a {
 a:hover {
 	color: var(--bs-green);
 }
+b {
+	font-weight: bold;
+}
 
 .blockquote-footer::before {
 	content: "— ";
