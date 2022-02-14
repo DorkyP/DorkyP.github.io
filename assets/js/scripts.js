@@ -34,8 +34,8 @@ window.addEventListener('DOMContentLoaded', event => {
 	var typed = new Typed('#typed', {
 		stringsElement: '#typed-strings',
 		loop: true,
-		typeSpeed: 80,
+		typeSpeed: 70,
 		backSpeed: 50,
-		backDelay: 1500
+		backDelay: 1000
 	});
 });
