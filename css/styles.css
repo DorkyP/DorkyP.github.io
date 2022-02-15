@@ -55,6 +55,10 @@ b {
 	font-weight: bold;
 }
 
+.skills-text {
+	display:none;
+}
+
 .blockquote-footer::before {
 	content: "— ";
 }
