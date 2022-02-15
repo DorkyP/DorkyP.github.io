@@ -515,6 +515,11 @@ p.lead {
 	display: none;
 }
 
+.dev-names-text {
+	font-size: 2rem;
+	vertical-align: middle;
+}
+
 section.resume-section {
 	display: flex;
 	align-items: center;
