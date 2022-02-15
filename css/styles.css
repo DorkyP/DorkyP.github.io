@@ -55,10 +55,6 @@ b {
 	font-weight: bold;
 }
 
-.skills-text {
-	display:none;
-}
-
 .blockquote-footer::before {
 	content: "— ";
 }
@@ -511,6 +507,12 @@ p.lead {
 
 .dev-icons {
 	font-size: 3rem;
+	display: block;
+}
+
+.dev-names {
+	font-size: 3rem;
+	display: none;
 }
 
 section.resume-section {
