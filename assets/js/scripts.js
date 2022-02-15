@@ -44,13 +44,11 @@ window.addEventListener('DOMContentLoaded', event => {
 	const skillsListNames = document.getElementById("skillsListNames");
 	btn.onclick = function () {
 		if (btn.innerText == "Show names") {
-			console.log("Showing text");
 			btn.innerText = "Hide names";
 			skillsListIcons.style.display = "none";
 			skillsListNames.style.display = "block";
 		} else {
 			console.log("Hiding text");
-			btn.innerText = "Show names";
 			skillsListIcons.style.display = "block";
 			skillsListNames.style.display = "none";
 		}
