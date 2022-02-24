@@ -48,7 +48,7 @@ window.addEventListener('DOMContentLoaded', event => {
 			skillsListIcons.style.display = "none";
 			skillsListNames.style.display = "block";
 		} else {
-			console.log("Hiding text");
+			btn.innerText = "Show names";
 			skillsListIcons.style.display = "block";
 			skillsListNames.style.display = "none";
 		}
